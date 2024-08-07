@@ -1,4 +1,4 @@
-//public class Main {
+//public class MainQLSV {
 //    public static void main(String args[]){
 //packet sort;
 //public class sort {
@@ -33,7 +33,7 @@
 // là khi được khởi tạo và kết thúc không bị tác động bên ngoài
 // Void là kiểu trả về
 // Nếu là int , double , string thì trả về kiểu dữ liệu tương ứng
-// Main tên của hàm -> Main đóng vai trò qtrong ( Không thể thay đổi ), là một key, báo cho zibien chạy rồi , khởi tạo 1 vùng nhớ
+// MainQLSV tên của hàm -> MainQLSV đóng vai trò qtrong ( Không thể thay đổi ), là một key, báo cho zibien chạy rồi , khởi tạo 1 vùng nhớ
 // (string args[]) là một tham số ( các đối số ), sử dụng được các thiết bị đầu nối ( Đầu vào ) . cho phép nhận các dữ liệu đầu vào ( CHuột, bàn phím )
 //{....} là đoạn code
 
@@ -435,6 +435,10 @@
 // 2. Encapsulation ( đóng gói )
 // 3. Polymophirm ( đa hình )
 // 4. Abstraction ( trừu tượng )
+// có 2 loại trù tượng là :
+// + Toàn phần (Interface) là tất cả class nào kế thừa interface thì phải triển khai toàn bộ các phương thức trong đó
+//  Các thành phần của interface
+// + Bán thành phần
 // public mang tính đóng gói ( Encassulation )
 // Encapsulation được thể hiện AccessModifier ( Phạm vi truy cập (đối tượng , phương thức , ...)
 // AccessModifier ( Public , protected , default , private )
@@ -469,3 +473,23 @@
 // còn nếu dữ liệu biến động , thay đổi như cổ phiếu,... thì không nên
 // 1 phương thức chỉ lấy , truyền dữ vaf set dữ liệu
 // set có giá trị trả về , get không có già trị trả về
+// classs với interface thì dùng implement
+// có biến , che giấu , hàm
+// anonymous inner
+
+// Trừu tượng - Abstraction ( Interface vs Abstracclass )
+// this là chỉ vể thuộc tính đó
+// supper  thì chỉ về thằng cha Đó có thể là 1 lớp hoặc 1 phương thức
+// Nó giúp cho mình độ phức tạp của dòng code ( ý nghĩa lớn lao của trừu tượng )
+// Mngar là tập hợp các ptu có cùng kiểu dữ liệu
+// dồn vào 1 một chung trong khi 2 kiểu dữ liệu của sv khác nhau
+// chỉ cần khai báo 1 list và khai báo SV
+
+// Ở java 1 ,  đa hình -
+// Map - hashmap :
+
+//Abstract - Interface
+// được sử dụng khi có cùng các thuộc tính chung vs nhau
+// Sự linh hoạt trong sự trừu tượntg
+
+// Được sử dụng các class khác nhau và phương thức giống nhau , cách triển khai khác nhau
